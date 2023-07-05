@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add products</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <ul>
+        <img src="./image/logo.png" width="150px" height="100px" id="">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="ABOUTUS.html">About us</a></li>
+        <li><a href="Contact Us.html">Contact us</a></li>
+        <li>
+            <a href="products.html">products <img src="image/icon4.png" width="30px" height="20px"></a>
+            <ul class="dropdown">
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="prand.html">prand</a></li>
+            </ul>
+        </li>
+        <li><a href="addproducts.html">Add products</a></li>
+        <li>
+            <a href="More.html">More <img src="image/icon4.png" width="30px" height="20px"></a>
+            <ul class="dropdown">
+                <li><a href="Delivery and payment.html">Delivery&payment</a></li>
+                <li><a href="Exchange and return.html">Exchange&return</a></li>
+                <li><a href="advice.html">Protect your accessories</a></li>
+                <li><a href="form.html">log in</a></li>
+                <li><a href="measurments.html">measurments</a></li>
+                <li><a href="quality.html">Quality</a></li>
+            </ul>
+        </li>
+    </ul>
+
+
+    <div class="formandtable">
+
+        <div class="imgform">
+            <br><br><br>
+            <h2 class="formactionaddpro">Please fill out the form to add the product</h2>
+            <div class="justform">
+
+                <form>
+
+                    <label for="">
+                        <b> Product Name: </b><input id="productName" class="textwidth" type="text">
+                    </label>
+                    <br><br>
+                    <label for="">
+                        <b>Product Price: </b><input id="productPrice" class="textwidth" type="number">
+                    </label>
+                    <br><br>
+                    <label for="">
+                        <b> Product Imge Name: </b><input id="productImageName" class="textwidth" type="text">
+                    </label>
+                    <br><br>
+                    <label> <b> Product rating:</b><input type="text" id="productrating" class="textwidth"></label>
+                    <br><br>
+                    <input id="submitBtn" type="submit" value="Add to table">
+                </form>
+            </div>
+            <br>
+        </div>
+
+
+        <table id="myTable">
+            <tr>
+                <th>No</th>
+                <th>Product Name</th>
+                <th>Product Price</th>
+                <th>Product Imge Name</th>
+                <th>Product rating</th>
+
+            </tr>
+        </table>
+    </div>
+    <footer class="footer">
+        <div class="containerfoot">
+            <a href="https://facebook.com"><img src="./image/face.png" alt=""></a>
+            <a href="https://instagram.com"><img src="./image/insta.png" alt=""></a>
+            <a href="https://linked in.com"><img src="./image/linked.png" alt=""></a>
+            <a href="https://twitter.com"><img src="./image/twitter.png" alt=""></a>
+            <span> Copyright &copy;2023 accessories store.</span>
+    </footer>
+</body>
+<script src="java script/Scriptnew.js"></script>
+
+</html>
